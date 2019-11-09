@@ -8,14 +8,3 @@
 //
 
 
-function Programmer(name, job, age, lang) {
-    this.name = name;
-    this.job = job;
-    this.age = age;
-    this.lang = lang;
-    this.progInfo = function () {
-      console.log(this);
-    }
-  }
-  var natalie = new Programmer("Natalie", "superhero", 27, "CSS");
-  natalie.progInfo()
